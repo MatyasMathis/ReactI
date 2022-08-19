@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -35,4 +36,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+table {
+  border: 3px solid black;
+  width: auto;
+  height: 200px;
+  margin: 16px;
+  color: black;
+  background-color: #59CE8F;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+.header
+{
+  text-align: center;
+  color: #000000;
+}
+body{
+  background-color: #E8F9FD;
+}
+
+.counter
+{
+  background-color: #ADA9BB;
+  margin: 16px;
+  height:auto;
+  width: auto;
+}
+#orderButton{
+  margin: 16px;
+  font-size: 20px;
+  background-color: #FF1E00;
+  color:white;
+}
+#orderParagraph{
+  color: #FF1E00;
 }
